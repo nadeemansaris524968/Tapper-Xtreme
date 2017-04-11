@@ -13,6 +13,10 @@
 		61FFC20B1E9D733400FA1D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC2091E9D733400FA1D90 /* Main.storyboard */; };
 		61FFC20D1E9D733400FA1D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC20C1E9D733400FA1D90 /* Assets.xcassets */; };
 		61FFC2101E9D733400FA1D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC20E1E9D733400FA1D90 /* LaunchScreen.storyboard */; };
+		61FFC2231E9D73E400FA1D90 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC21F1E9D73E400FA1D90 /* coin.png */; };
+		61FFC2241E9D73E400FA1D90 /* playbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC2201E9D73E400FA1D90 /* playbtn.png */; };
+		61FFC2251E9D73E400FA1D90 /* retrobg.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC2211E9D73E400FA1D90 /* retrobg.png */; };
+		61FFC2261E9D73E400FA1D90 /* Tapper.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FFC2221E9D73E400FA1D90 /* Tapper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		61FFC20C1E9D733400FA1D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61FFC20F1E9D733400FA1D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61FFC2111E9D733400FA1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FFC21F1E9D73E400FA1D90 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		61FFC2201E9D73E400FA1D90 /* playbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbtn.png; sourceTree = "<group>"; };
+		61FFC2211E9D73E400FA1D90 /* retrobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retrobg.png; sourceTree = "<group>"; };
+		61FFC2221E9D73E400FA1D90 /* Tapper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapper.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				61FFC2071E9D733400FA1D90 /* ViewController.m */,
 				61FFC2091E9D733400FA1D90 /* Main.storyboard */,
 				61FFC20C1E9D733400FA1D90 /* Assets.xcassets */,
+				61FFC21F1E9D73E400FA1D90 /* coin.png */,
+				61FFC2201E9D73E400FA1D90 /* playbtn.png */,
+				61FFC2211E9D73E400FA1D90 /* retrobg.png */,
+				61FFC2221E9D73E400FA1D90 /* Tapper.png */,
 				61FFC20E1E9D733400FA1D90 /* LaunchScreen.storyboard */,
 				61FFC2111E9D733400FA1D90 /* Info.plist */,
 				61FFC2001E9D733400FA1D90 /* Supporting Files */,
@@ -138,8 +150,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FFC2241E9D73E400FA1D90 /* playbtn.png in Resources */,
+				61FFC2251E9D73E400FA1D90 /* retrobg.png in Resources */,
+				61FFC2231E9D73E400FA1D90 /* coin.png in Resources */,
 				61FFC2101E9D733400FA1D90 /* LaunchScreen.storyboard in Resources */,
 				61FFC20D1E9D733400FA1D90 /* Assets.xcassets in Resources */,
+				61FFC2261E9D73E400FA1D90 /* Tapper.png in Resources */,
 				61FFC20B1E9D733400FA1D90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *inputTF;
+
+
 @end
 
 @implementation ViewController
@@ -17,13 +20,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _inputTF.delegate = self;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    
+    return YES;
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [textField resignFirstResponder];
+    return YES;
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self.view endEditing:YES];
+}
 
 @end
